@@ -48,6 +48,7 @@ body{
     border-radius: 10px;
 }
 .btn{
+    border: 1px solid #dddfe2;
     width: 350px;
     height: 50px;
     margin-left: 17px;
@@ -149,6 +150,7 @@ body{
     margin-left: 225px;
     margin-top: 15px;
 }
+
 .footer-div{
     float: left;
     margin-left: 15px;
@@ -175,3 +177,21 @@ body{
     border: none;
     height: 1px;
 }
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+  
